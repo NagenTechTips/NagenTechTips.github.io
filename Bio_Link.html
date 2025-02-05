@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a2b44">
+    <meta name="keywords" content="tech tips, gadgets, software reviews, tech shopping, tech deals, Nagen Tech Tips">
+    <meta name="description" content="Nagen Tech Tips - Your go-to source for tech tips, gadget reviews, and the latest software news.">
+    <title>Nagen Tech Tips</title>
+
+    <!-- Fonts and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="profile-content">
+            <div class="profile-pic">
+                <img src="IMG_0571.png" alt="Creator Image">
+            </div>
+
+            <div class="bio">
+                <h1>Nagen Tech Tips 🇲🇾</h1>
+                <p>
+                    I'm Nagendran, a content creator passionate about sharing tech tips and recommendations on gadgets, 
+                    tools, and lifestyle products. From innovative tech to everyday essentials, I aim to help you discover
+                    valuable tips and products that can inspire and enhance your life!
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://www.amazon.com/shop/NagenTechTips" target="_blank" title="shop on Amazon">
+                        <i class="fa-brands fa-amazon"></i>
+                        <span>Amazon</span>
+                    </a>
+                    <a href="https://youtube.com/@NagenTechTips/?sub_confirmation=1" target="_blank" title="Subscribe to my YouTube channel">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://facebook.com/NagenTechTips" target="_blank" title="like my Facebook page">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://instagram.com/nagentechtips" target="_blank" title="follow me on Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://twitter.com/NagenTechTips" target="_blank" title="follow me on X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span style="display: none;">X</span>
+                    </a>
+                    <a href="https://www.patreon.com/NagenTechTips" target="_blank" title="support me on Patreon">
+                        <i class="fa-brands fa-patreon"></i>
+                        <span>Patreon</span>
+                    </a>
+                    <a href="https://paypal.me/nagenk91?country.x=MY&locale.x=en_US" target="_blank" title="donate via PayPal">
+                        <i class="fa-brands fa-paypal"></i>
+                        <span>PayPal</span>
+                    </a>
+                    <a class="contact-button" id="contact-form" title="get in touch">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="contactModal" class="modal" role="dialog" aria-labelledby="contact-modal-title">
+        <div class="modal-content">
+            <span class="close-modal-btn" id="close-modal" aria-label="Close">&times;</span>
+            <h2 id="contact-modal-title">Get in Touch</h2>
+            <form action="https://formspree.io/f/xldewoqw" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; <a href="https://www.facebook.com/NagendranTechSavvy" target="_blank">2025 Nagen Tech Tips</a>. All Rights Reserved.</p>
+        <div id="backToTop" class="back-to-top">Back to Top ↑</div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
