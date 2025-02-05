@@ -473,10 +473,6 @@ footer a:hover,
     font-size: 2em;
 }
 
-.bio p {
-    font-size: 0.9em;
-}
-
 .footer p {
     font-size: 12px;
 }
@@ -494,7 +490,6 @@ footer a:hover,
 }
 
 .bio p {
-    font-size: 0.9em;
     width: 100%;
 }
 
