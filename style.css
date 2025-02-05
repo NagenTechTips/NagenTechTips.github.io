@@ -206,7 +206,7 @@ body {
 }
 
 .social-icons a:hover i {
-    transform: rotate(360deg) scale(1.2);
+    transform: rotateY(360deg) scale(1.2);
 }
 
 /* Contact Form Modal */
